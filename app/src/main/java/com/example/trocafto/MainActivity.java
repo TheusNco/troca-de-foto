@@ -30,6 +30,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void clickCavalo(View view){
-
+        troca.setImageResource(R.drawable.cavalo);
+    }
+    public void clickGato(View view){
+        troca.setImageResource(R.drawable.gato);
+    }
+    public void clickGalinha(View view){
+        troca.setImageResource(R.drawable.galinha);
+    }
+    public void clickCachorro(View view){
+        troca.setImageResource(R.drawable.cachorro);
     }
 }
