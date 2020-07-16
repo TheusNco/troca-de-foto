@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+//onde vai atribuir a ação do botão pra trocar de imagem 
         cavalo = (Button) findViewById(R.id.btncavalo);
         gato = (Button) findViewById(R.id.btngato);
         galinha = (Button) findViewById(R.id.btngalinha);
